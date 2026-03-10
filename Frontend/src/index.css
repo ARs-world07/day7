@@ -1,0 +1,54 @@
+* {
+ margin:0;
+ padding:0;
+ box-sizing:border-box;
+}
+html,
+body,
+#root {
+ height:100%;
+ width:100%;
+}
+
+html{
+  background-color: black;
+  font-family: system-ui;
+}
+.notes{
+  display: flex;
+  gap: 1rem;
+  padding-block: 1rem;
+  padding-inline: 3rem;
+  flex-wrap: wrap;
+}
+.note{
+
+  background-color: #4d4c4c;
+  padding: 1rem;
+  border-radius: 0.7rem;
+  max-width: 20rem;
+  color: white;
+  text-align: center;
+
+}
+
+.note button{
+  background-color: rgb(120, 0, 0);
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 10%;
+  text-align: center;
+  margin-top: 10px;
+}
+.note button:active{
+  scale: 0.9 ;
+}
+
+
+.note-create-form{
+  display: flex;
+  gap: 1rem;
+  padding-inline: 3rem;
+  padding-block: 1rem;
+}
